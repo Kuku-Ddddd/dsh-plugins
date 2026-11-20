@@ -1,0 +1,3 @@
+- insert:
+    - id: task-artifact-folder
+      name: '@local/dsh-task-artifact-folder'

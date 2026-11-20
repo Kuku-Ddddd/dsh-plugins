@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Task artifact folder",
+    "description": "Creates a same-named folder at the workspace root for every new task and stages that task's artifacts into it. The folder is created before artifacts appear, the agent is told its path, and items declared with present or written at the workspace root are copied in as a fallback. Renaming the task renames the folder; a folder is never moved onto an existing file or non-empty directory. Folder naming, date prefix, and copy-or-move behavior are configurable in config.json."
+  }
+}

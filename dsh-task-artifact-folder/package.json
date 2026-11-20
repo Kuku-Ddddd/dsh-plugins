@@ -1,0 +1,30 @@
+{
+  "name": "dsh-task-artifact-folder",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Creates a same-named folder for every new task at the workspace root and stages that task's artifacts into it; renames the folder when you rename the task.",
+  "keywords": ["dsh-plugin", "deepseek-harness", "artifacts", "deliverables", "workspace"],
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "naming.js",
+    "store.js",
+    "define-tool.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "README.md",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
