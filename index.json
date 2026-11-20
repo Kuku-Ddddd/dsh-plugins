@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Kuku's DSH plugins",
+    "zh": "苦苣的 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins published for DeepSeek Harness.",
+    "zh": "为 DeepSeek Harness 发布的插件。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-task-artifact-folder",
+      "title": {
+        "en": "Task artifact folder",
+        "zh": "任务产物文件夹"
+      },
+      "description": {
+        "en": "Creates a same-named folder for every new task and stages that task's artifacts into it. Renaming the task renames the folder.",
+        "zh": "每个新任务自动建同名文件夹，并把产物装进去；任务改名时文件夹跟着改名。"
+      },
+      "author": "Kuku-Ddddd",
+      "keywords": ["artifacts", "deliverables", "workspace"],
+      "icon": "icon.svg",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795015200,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Kuku-Ddddd/dsh-plugins",
+            "commit": "c378e45781df5f76af50c44c8f71932a0b9dacb9",
+            "path": "dsh-task-artifact-folder"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}
